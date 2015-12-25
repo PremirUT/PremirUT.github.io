@@ -1,1 +1,1 @@
-# PremirUT.github.io
+# Premier University of Technology
