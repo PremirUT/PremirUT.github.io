@@ -80,12 +80,13 @@ body {
   height: 125px;
 }
 #header.container {
-  border-bottom: 1px solid #c7c5c1;
+  border-bottom:;
 }
 /* Logo */
 .logo {
-  width: 100%;
-  position: absolute;
+  float:left;
+  height:100px;
+  width:100px;
 }
 .logo a {
   left: 0px;
@@ -583,7 +584,7 @@ h1.logo-text a {
 }
 #hornav > ul > li > a,
 #hornav > ul > li > span {
-  color: #333333;
+  color: #228B22;
   display: block;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
@@ -619,7 +620,7 @@ h1.logo-text a {
 }
 /* Dropdown Menu */
 #hornav ul ul {
-  background: #f4f1ea;
+  background: #228B22;
   border-radius: 5px;
   border: 1px solid #dddddd;
   position: relative;
@@ -646,7 +647,7 @@ h1.logo-text a {
   box-shadow: none;
   display: block;
   padding: 6px 15px;
-  color: #555555 !important;
+  color: #FFFFFF !important;
   text-transform: none;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
@@ -721,19 +722,19 @@ h1.logo-text a {
 /*-----------------------------------------------------------------------------------*/
 .sidebar-nav {
   border-radius: 5px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #228B22;
 }
 .sidebar-nav li {
   padding: 0;
   /*Sidebar Sub Navigation*/
 }
 .sidebar-nav li a {
-  background: #e8e5df;
+  background: #228B22;
   border-bottom: 1px solid #d8d6d0;
   display: block;
   padding: 10px 20px;
   outline: none;
-  color: #363539;
+  color: #228B22;
   font-size: 17px;
 }
 .sidebar-nav li a:hover {

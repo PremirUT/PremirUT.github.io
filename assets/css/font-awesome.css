@@ -14,6 +14,7 @@
 .fa {
   display: inline-block;
   font-family: FontAwesome;
+
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -31,12 +32,21 @@
 }
 .fa-3x {
   font-size: 3em;
+  color:#228B22;
+  float:left;
+  margin-top:20px;
 }
 .fa-4x {
   font-size: 4em;
 }
 .fa-5x {
   font-size: 5em;
+}
+.fa-6x {
+  font-size: 3em;
+  color:#228B22;
+  text-align: center;
+  margin-top:20px;
 }
 .fa-fw {
   width: 1.28571429em;
